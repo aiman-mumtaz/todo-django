@@ -1,0 +1,36 @@
+.striker {
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: gray;
+    transition: all 500ms;
+}
+
+a :hover {
+    font-size: 2rem;
+    
+}
+
+body {
+    background-color: #39CCCC;
+    animation: myanimation 25s infinite;
+}
+
+@keyframes myanimation {
+    0% {background-color:#e6ebff ;}
+    10% {background-color: #e2e7ff;}
+    20%{background-color:#dee4ff;}
+    30%{background-color:#dae1ff;}
+    40%{background-color:#d6deff;}
+    50% {background-color:#aec6cf;}
+    60% {background-color:#d6deff;}
+    70% {background-color:#dae1ff;}
+    80% {background-color:#dee4ff;}
+    90% {background-color:#e2e7ff;}
+    100% {background-color:#e6ebff;}
+
+  }
