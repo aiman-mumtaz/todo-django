@@ -17,7 +17,7 @@
 <table class="table table-bordered">
     {% for things in all_items %}
         {% if things.completed %}
-            <tr class="table-secondary">
+            <tr>
                 <td class="striker"><a href="{% url 'edit' things.id %}">{{ things.item }}</a></td>
                 <td><center><a href="{% url 'uncross' things.id %}">Uncross</a></center></td>
                 <td><center><a href="{% url 'delete' things.id %}">Delete</a></center></td>

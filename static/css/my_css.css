@@ -16,21 +16,16 @@ a :hover {
 }
 
 body {
-    background-color: #39CCCC;
     animation: myanimation 25s infinite;
+    transition: 10ms;
 }
 
 @keyframes myanimation {
-    0% {background-color:#e6ebff ;}
-    10% {background-color: #e2e7ff;}
-    20%{background-color:#dee4ff;}
-    30%{background-color:#dae1ff;}
-    40%{background-color:#d6deff;}
-    50% {background-color:#aec6cf;}
-    60% {background-color:#d6deff;}
-    70% {background-color:#dae1ff;}
-    80% {background-color:#dee4ff;}
-    90% {background-color:#e2e7ff;}
-    100% {background-color:#e6ebff;}
-
+    0% {background-color:   #c1cefe;}
+    10% {background-color:  #B0FE76;}
+    30%{background-color:   #ffc857 ;}
+    50% {background-color:  #F6AE2D;}
+    70% {background-color:  #fcbfb7;}
+    90% {background-color:  #ededed;}
+    100% {background-color: #c1cefe;}
   }
